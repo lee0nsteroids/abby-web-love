@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For My Love</title>
+    <style>
+        body {
+            background: linear-gradient(120deg, #004d40, #00274d);
+            color: #fff;
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            padding: 5vw;
+            overflow-y: auto;
+            position: relative;
+        }
+        .heart {
+            font-size: 4.5vw;
+            animation: heartbeat 1.5s infinite;
+        }
+        @keyframes heartbeat {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.3); }
+            100% { transform: scale(1); }
+        }
+        .container {
+            max-width: 90%;
+            margin: auto;
+            background: rgba(255, 255, 255, 0.1);
+            padding: 5vw;
+            border-radius: 15px;
+            position: relative;
+            z-index: 2;
+            font-size: 2.7vw;
+        }
+        .background-motion {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            background: radial-gradient(circle, rgba(255,255,255,0.1) 10%, transparent 80%);
+            animation: moveBackground 10s infinite alternate;
+        }
+        @keyframes moveBackground {
+            0% { transform: translateY(-10%) translateX(-10%); }
+            100% { transform: translateY(10%) translateX(10%); }
+        }
+        h1 {
+            font-size: 5.4vw;
+        }
+        p {
+            font-size: 3vw;
+        }
+        .glowing-text {
+            color: #ff0000;
+            text-shadow: 0 0 10px #ff0000, 0 0 20px #990000, 0 0 30px #006600, 0 0 40px #003300;
+        }
+    </style>
+</head>
+<body>
+    <div class="background-motion"></div>
+    <h1>💖 For My Love 💖</h1>
+    <div class="container">
+        <p class="heart">❤️💓💞</p>
+        <p>From the moment I met you, my world changed in ways I never imagined. Every smile you share, every laugh we have together, and every touch of your hand ignites a warmth in my heart that never fades. You are my safe place, my adventure, and my greatest love. 💑💕</p>
+        <p class="glowing-text">Your love is like the stars that shine in the night sky—endless, radiant, and comforting. The way you look at me makes me feel like the luckiest person alive, and every moment with you is a beautiful memory etched into my soul. I cherish you beyond words. ✨💖</p>
+        <p>No matter where life takes us, know that my heart beats only for you. You are my love, my best friend, and my everything. Through every high and low, I promise to stand by your side, love you endlessly, and make you feel as special as you truly are. Forever and always. ❤️💍🌹</p>
+        <p class="heart">💘💖💗</p>
+    </div>
+</body>
+</html>
